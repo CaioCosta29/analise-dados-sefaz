@@ -36,3 +36,6 @@ env/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+dados_extraidos/
+data/processed/
