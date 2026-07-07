@@ -4,6 +4,7 @@
 
 # --- Arquivos locais de ferramentas / assistentes -------------------------
 .assistant/
+.claude/
 *.local.md
 .mcp.json
 

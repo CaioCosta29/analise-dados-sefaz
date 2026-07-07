@@ -4,7 +4,7 @@ Desafio técnico de Análise de Dados. Pipeline em **Python** que trata as
 despesas por função das **26 capitais brasileiras** (Siconfi/FINBRA, 2020–2025)
 e um **dashboard em Next.js** que explora os dados, com foco em **Maceió**.
 
-🔗 **Demo:** https://SEU-PROJETO.vercel.app  ·  📊 **Insights:** [INSIGHTS.md](INSIGHTS.md)
+🔗 **Demo:** https://analise-dados-sefaz.vercel.app  ·  📊 **Insights:** [INSIGHTS.md](INSIGHTS.md)
 
 ## O que o projeto faz
 
