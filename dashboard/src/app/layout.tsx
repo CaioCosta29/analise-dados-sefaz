@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Inter, Merriweather } from "next/font/google";
+import Nav from "@/componentes/Nav";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+const merriweather = Merriweather({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+  variable: "--font-merriweather",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,6 +24,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
+      className={`${inter.variable} ${merriweather.variable}`}
     >
       <body className="bg-sefaz-light text-sefaz-gray font-sans antialiased min-h-screen flex flex-col">
         {/* HEADER SUPERIOR */}
@@ -35,28 +35,38 @@ export default function RootLayout({
                 SM
               </div>
               <div>
-                <h1 className="text-xl font-bold text-white tracking-wide">Sefaz Maceió</h1>
-                <p className="text-sm text-green-200/80">Painel de Despesas Públicas · Capitais Brasileiras</p>
+                <h1 className="text-xl font-bold text-white tracking-wide">
+                  Sefaz Maceió
+                </h1>
+                <p className="text-sm text-green-200/80">
+                  Painel de Despesas Públicas · Capitais Brasileiras
+                </p>
               </div>
             </div>
-            
+
             <div className="flex gap-3 text-xs font-semibold">
-              <span className="border border-green-700/50 bg-sefaz-green/50 text-green-100 px-3 py-1.5 rounded-full">26 capitais</span>
-              <span className="border border-green-700/50 bg-sefaz-green/50 text-green-100 px-3 py-1.5 rounded-full">2020 – 2025</span>
+              <span className="border border-green-700/50 bg-sefaz-green/50 text-green-100 px-3 py-1.5 rounded-full">
+                26 capitais
+              </span>
+              <span className="border border-green-700/50 bg-sefaz-green/50 text-green-100 px-3 py-1.5 rounded-full">
+                2020 – 2025
+              </span>
             </div>
           </div>
 
-          <nav className="max-w-7xl mx-auto flex gap-8 text-sm font-medium">
-            <span className="pb-3 border-b-2 border-maceio-amber text-white cursor-pointer">Visão Geral</span>
-            <span className="pb-3 border-b-2 border-transparent hover:text-white cursor-pointer transition-colors">Raio-X de Maceió</span>
-            <span className="pb-3 border-b-2 border-transparent hover:text-white cursor-pointer transition-colors">Comparador de Capitais</span>
-          </nav>
+          <Nav />
         </header>
 
-        
-        <main className="flex-1 w-full max-w-7xl mx-auto p-8">
-          {children}
-        </main>
+        {/* FAIXA DE ORIGEM DOS DADOS */}
+        <div className="bg-sefaz-light border-b border-black/5 px-8 py-2.5">
+          <p className="max-w-7xl mx-auto text-xs text-sefaz-gray flex items-center gap-2">
+            <span className="w-1.5 h-1.5 rounded-full bg-maceio-amber inline-block" />
+            Dados oficiais · Siconfi/FINBRA 2020–2025 · execução orçamentária
+            declarada pelas capitais.
+          </p>
+        </div>
+
+        <main className="flex-1 w-full max-w-7xl mx-auto p-8">{children}</main>
       </body>
     </html>
   );

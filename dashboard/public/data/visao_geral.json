@@ -1,0 +1,152 @@
+{
+  "periodo": {
+    "inicio": 2020,
+    "fim": 2024
+  },
+  "total_empenhado": 1190126362535.49,
+  "total_pago": 1091048736198.29,
+  "exec_media_capitais": 91.7,
+  "maceio_rank_execucao": {
+    "ano": 2024,
+    "posicao": 18,
+    "total": 26,
+    "taxa": 92.4
+  },
+  "funcoes_maior_peso": [
+    {
+      "conta": "10 - Saúde",
+      "nome": "Saúde",
+      "empenhado": 284656699569.2
+    },
+    {
+      "conta": "12 - Educação",
+      "nome": "Educação",
+      "empenhado": 246082269855.17
+    },
+    {
+      "conta": "09 - Previdência Social",
+      "nome": "Previdência Social",
+      "empenhado": 160805238244.7
+    },
+    {
+      "conta": "15 - Urbanismo",
+      "nome": "Urbanismo",
+      "empenhado": 130333973837.31
+    },
+    {
+      "conta": "04 - Administração",
+      "nome": "Administração",
+      "empenhado": 74466496038.63
+    },
+    {
+      "conta": "28 - Encargos Especiais",
+      "nome": "Encargos Especiais",
+      "empenhado": 68739957223.16
+    },
+    {
+      "conta": "26 - Transporte",
+      "nome": "Transporte",
+      "empenhado": 59133434254.49
+    },
+    {
+      "conta": "17 - Saneamento",
+      "nome": "Saneamento",
+      "empenhado": 32276184832.84
+    },
+    {
+      "conta": "08 - Assistência Social",
+      "nome": "Assistência Social",
+      "empenhado": 30115281239.01
+    },
+    {
+      "conta": "01 - Legislativa",
+      "nome": "Legislativa",
+      "empenhado": 22233088548.5
+    },
+    {
+      "conta": "16 - Habitação",
+      "nome": "Habitação",
+      "empenhado": 16307877291.43
+    },
+    {
+      "conta": "06 - Segurança Pública",
+      "nome": "Segurança Pública",
+      "empenhado": 15500969921.35
+    },
+    {
+      "conta": "13 - Cultura",
+      "nome": "Cultura",
+      "empenhado": 10278931203.29
+    },
+    {
+      "conta": "18 - Gestão Ambiental",
+      "nome": "Gestão Ambiental",
+      "empenhado": 8657417289.08
+    },
+    {
+      "conta": "23 - Comércio e Serviços",
+      "nome": "Comércio e Serviços",
+      "empenhado": 6911160733.47
+    },
+    {
+      "conta": "27 - Desporto e Lazer",
+      "nome": "Desporto e Lazer",
+      "empenhado": 5354216828.51
+    },
+    {
+      "conta": "14 - Direitos da Cidadania",
+      "nome": "Direitos da Cidadania",
+      "empenhado": 3789461538.37
+    },
+    {
+      "conta": "02 - Judiciária",
+      "nome": "Judiciária",
+      "empenhado": 3520551161.81
+    },
+    {
+      "conta": "11 - Trabalho",
+      "nome": "Trabalho",
+      "empenhado": 3183099866.53
+    },
+    {
+      "conta": "24 - Comunicações",
+      "nome": "Comunicações",
+      "empenhado": 2373751424.8
+    },
+    {
+      "conta": "19 - Ciência e Tecnologia",
+      "nome": "Ciência e Tecnologia",
+      "empenhado": 1666007359.04
+    },
+    {
+      "conta": "03 - Essencial à Justiça",
+      "nome": "Essencial à Justiça",
+      "empenhado": 1574834995.7
+    },
+    {
+      "conta": "25 - Energia",
+      "nome": "Energia",
+      "empenhado": 876479307.3
+    },
+    {
+      "conta": "20 - Agricultura",
+      "nome": "Agricultura",
+      "empenhado": 660721115.21
+    },
+    {
+      "conta": "05 - Defesa Nacional",
+      "nome": "Defesa Nacional",
+      "empenhado": 360553322.1
+    },
+    {
+      "conta": "22 - Indústria",
+      "nome": "Indústria",
+      "empenhado": 150666656.69
+    },
+    {
+      "conta": "07 - Relações Exteriores",
+      "nome": "Relações Exteriores",
+      "empenhado": 117038877.8
+    }
+  ]
+}
